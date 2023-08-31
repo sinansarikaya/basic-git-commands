@@ -18,3 +18,19 @@ Bir önceki aşamada 1. yol tercih edilip `git init` komutu kullanıldıysa GitH
 1. `git remote add origin <repo_url>` Uzak depoyu ekler.
 2. `git branch -M main` Ana branch ayarı
 
+Takım halinde çalışmalar yapılıyorsa çalışmalara branchlar dahil edilmelidir. Farklı branchlarda çalışmak kod çakışmasını engeller. Branch olusturmak için aşağıdaki 1. adımı uygulayınız. 1. adımda yeni bir branch oluşturacaksınız. Bu branchın oluşup oluşmadığını 2. adımı takip ederek görebilirsiniz. Ayrıca 2. adımda listelenen branchlardan bir tanesinin adı yeşil renkte olur. Bunun anlamı şuan yeşil yazılan branchta çalışıyor olmanızdır. Olusturduğunuz brancha geçmek için 3. adımı takip ediniz.
+
+## Branch İşlemleri
+1. `git branch <branch_adı>`  Yeni bir dal oluşturur.
+2. `git branch`: Mevcut dalları listeler.
+3. `git checkout <branch_adı>` Bir dala geçiş yapar.
+
+Yukarıdaki işlemler bittiğinde artık çalışmaya hazırsınız demektir. Öncelikle projeniz üzerindeki görevinizi yapıp kodlarınızı yazmalısınız. Daha sonra yaptığınız güncellemeleri GitHuba göndermek için gerekli adımları takip etmelisiniz. Aşağıdaki 1. komut ile değişiklik yaptığınız bütün dosyaları sisteme bildirirsiniz. 2. adımda yaptığınız değişiklikleri kısa bir ve İngilizce bir dille açıklamanız gerekir.  İngilizce olması zorunlu değildir ancak piyasada bu şekilde kullanılır. 3. adımda ise gönderilmeye hazır dosyaları kontrol edebilirsiniz. Bu adım isteğe bağlıdır. 4. adımda dosyalarımızı uzak sunucuya gönderiyoruz. Eğer çalışmakta olduğumuz branch ile ilk defa dosya gönderimi yapıyorsak 4. yol izlenir ama daha önce gönderim yapılduysa 5. yolu izleyebilirsiniz. 4. yol daima çalışır.
+
+## Temel İşlemler
+1. `git add .` Değişiklikleri göndermek için sisteme bildirir.
+2. `git commit -m "Açıklama"` Hazırlanan değişiklikleri bir "commit" olarak kaydeder.
+3. `git status`: Depodaki değişikliklerin durumunu gösterir.
+4. `git push -u origin <branch_adı>`: Yerel "commit"leri uzak sunucuya gönderir.
+5. `git push`
+
