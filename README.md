@@ -30,7 +30,7 @@ Yukarıdaki işlemler bittiğinde artık çalışmaya hazırsınız demektir. Ö
 ## Temel İşlemler
 1. `git add .` Değişiklikleri göndermek için sisteme bildirir.
 2. `git commit -m "Açıklama"` Hazırlanan değişiklikleri bir "commit" olarak kaydeder.
-3. `git status`: Depodaki değişikliklerin durumunu gösterir.
-4. `git push -u origin <branch_adı>`: Yerel "commit"leri uzak sunucuya gönderir.
+3. `git status` Depodaki değişikliklerin durumunu gösterir.
+4. `git push -u origin <branch_adı>` Yerel "commit"leri uzak sunucuya gönderir.
 5. `git push`
 
