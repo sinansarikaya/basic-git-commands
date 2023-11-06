@@ -3,7 +3,7 @@
 Git yeni kurulduysa temel ayarlar yapmamız gerekiyor. Bunlardan bir tanesi Giti kullanan kişinin ad ve soyadının yazılmasıdır. Bunun amacı yazılan kodun kimin yazdığını kolayca göstermektir.  Bunu ayarlamanın yolu temel ayarlardaki 1. adımdır. Diğer bir ayarımız ise e-posta ayarı. Burada kullandığınız e-posta adresinin GitHub hesabınızda kullandığınız e-posta ile aynı olmasına dikkat edin.
 
 ## Temel Ayarlar
-1. `git config --global user.name "Ad Soyad"` Kullanıcı adınızı ayarlar.
+1. `git config --global user.name "Ad Soyad"` Adınızı ve Soyadınızı ayarlar.
 2. `git config --global user.email "e-posta@example.com"` E-posta adresinizi ayarlar.
 
 Ayarları yaptıktan sonra bilgisayardaki projemizde ilk defa Git kullanılacaksa aşağıdaki 1. adım ile Git initialize edilmelidir. Ama eğer hali hazırda GitHubda bir proje varsa o halde 1. adıma ihtiyacınız yok. Bunun yerine 2. adımı takip ederek GitHubdaki projeyi klonlayabilirsiniz.
