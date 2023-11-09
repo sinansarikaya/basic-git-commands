@@ -18,6 +18,7 @@ Bir önceki aşamada 1. yol tercih edilip `git init` komutu kullanıldıysa GitH
 1. `git remote add origin <repo_url>` Uzak depoyu ekler.
 2. `git branch -M main` Ana branch ayarı
 3. `git remote -v` Bağlı olduğu repoyu gösterir.
+4. `git remote rm origin` Komutu, yerel bir Git depo içinde tanımlı olan uzak depoyu (genellikle "origin" adıyla belirtilir) kaldırmak için kullanılır. "origin" adını istediğiniz başka bir adla değiştirebilirsiniz. Bu komut, uzak depoyu projenizle bağlantısını keser, yani o uzak depoya daha fazla git çekme veya gönderme işlemi yapılamaz.
 
 Takım halinde çalışmalar yapılıyorsa çalışmalara branchlar dahil edilmelidir. Farklı branchlarda çalışmak kod çakışmasını engeller. Branch olusturmak için aşağıdaki 1. adımı uygulayınız. 1. adımda yeni bir branch oluşturacaksınız. Bu branchın oluşup oluşmadığını 2. adımı takip ederek görebilirsiniz. Ayrıca 2. adımda listelenen branchlardan bir tanesinin adı yeşil renkte olur. Bunun anlamı şuan yeşil yazılan branchta çalışıyor olmanızdır. Olusturduğunuz brancha geçmek için 3. adımı takip ediniz.
 
